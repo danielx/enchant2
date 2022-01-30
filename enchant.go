@@ -2,9 +2,9 @@
 package enchant
 
 /*
-#cgo LDFLAGS: -lenchant
+#cgo LDFLAGS: -lenchant-2
 #include <stdlib.h>
-#include <enchant/enchant.h>
+#include <enchant-2/enchant.h>
 
 static char* getString(char **c, int i) {
 	return c[i];

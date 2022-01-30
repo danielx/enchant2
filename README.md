@@ -1,22 +1,24 @@
-# goenchant
+# goenchant2
 
-This package provides bindings for the enchant spell checking library.
+This package provides bindings for the enchant v2 spell checking library.
+
+See https://github.com/danielx/enchant for bindings for v1
 
 ## Prerequisites
 
-You need to have `libenchant` version 1.6 and its development files
+You need to have `enchant` version 2 and its development files
 installed to use this package. Additionally you need to install the
 dictionaries (hunspell, aspell etc.) you would like to use.
 
 ### Example
 ```
-sudo apt-get install enchant libenchant-dev hunspell-en
+sudo apt-get install enchant-2 libenchant-2-dev hunspell-en-us
 ```
 
 ## Install
 
 ```
-go get github.com/danielx/enchant
+go get github.com/danielx/enchant2
 ```
 
 ## Running tests
@@ -33,7 +35,7 @@ make test
 
 ## Docs
 
-https://godoc.org/github.com/danielx/enchant
+https://godoc.org/github.com/danielx/enchant2
 
 ## Usage
 
@@ -44,7 +46,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/danielx/enchant"
+	"github.com/danielx/enchant2"
 )
 
 func main() {
