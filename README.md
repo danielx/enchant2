@@ -2,7 +2,7 @@
 
 This package provides bindings for the enchant v2 spell checking library.
 
-See https://github.com/danielx/enchant for bindings for v1
+See https://github.com/danielx/enchant for enchant v1 bindings
 
 ## Prerequisites
 
